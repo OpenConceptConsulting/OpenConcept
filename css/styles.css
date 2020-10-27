@@ -1,7 +1,48 @@
 .header--logo {
-    margin: 2rem;
-    border-bottom: 5px solid grey;
+    padding: 2rem 4rem;
+    border-bottom: 3px solid #dfdfdf;
 }
 body {
     margin: 0;
+    font-family: Lato;
+}
+.visually-hidden {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 3.5rem;
+    line-height: 3.4rem;
+    font-family: "Francois One",sans-serif;
+    color: #033e4c;
+}
+p {
+    font-size: 28px;
+}
+.container {
+    margin: 2rem 0;
+}
+a {
+    color: #06667c;
+}
+.front-page-message {
+    display: flex;
+
+    margin: 0 4rem;
+}
+.front-page-message .text {
+    padding-right: 1rem;
+}
+.front-page-message .text,
+.front-page-message .image {
+    width: 50%;
+}
+.front-page-message .image img {
+    max-width: 600px;
+}
+footer {
+    background-color: #212121;
+    padding: 2rem;
 }
